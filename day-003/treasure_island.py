@@ -23,12 +23,12 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
-option = input(""" You're at a cross road. Where do you want to go? Type "left" or "right" """)
+option = input(""" You're at a cross road. Where do you want to go? Type "left" or "right" """).lower()
 
 if option == "left":
-    option = input("""You come to a lake. There is an island in the middle of the lake. Type "wait" for a boat. Type "swim" to swim across  """)
+    option = input("""You come to a lake. There is an island in the middle of the lake. Type "wait" for a boat. Type "swim" to swim across  """).lower()
     if option == "wait":
-        option = input("""You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?  """)
+        option = input("""You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?  """).lower()
         if option == "blue":
             print("You enter a room of beats. Game Over!")
         elif option == "yellow":

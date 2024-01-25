@@ -97,3 +97,13 @@ isWinning =True
 
 # f-string
 print(f"Your score is {score}, your height is {height}, you are winning is {isWinning} " )
+
+
+# Ejercicio Life in Weeks
+
+age = input()
+# 🚨 Don't change the code above 👆
+# Write your code below this line 👇
+int_age = int(age)
+weeks_left = (90-int_age)*52
+print(f"You have {weeks_left} weeks left.")
