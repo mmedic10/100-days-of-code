@@ -71,7 +71,7 @@ line2 = ["⬜️","⬜️","️⬜️"]
 line3 = ["⬜️️","⬜️️","⬜️️"]
 map = [line1, line2, line3]
 print("Hiding your treasure! X marks the spot.")
-position = "B3"
+position = "B2"
 
 letra = position[0]
 print(letra)
@@ -83,4 +83,6 @@ print(pos_letra)
 map[num-1][pos_letra] = "X"
 
 print(f"{line1}\n{line2}\n{line3}")
+
+
 
